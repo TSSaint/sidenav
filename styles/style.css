@@ -5,18 +5,21 @@
   font-family: 'Gotham', sans-serif;
   font-size: 1.1em;
   color: black;
-  /*margin-top: 0;*/
-  /*padding: 0;*/
+  top: 0;
+  margin: 0;
 }
 
 li {
   list-style: none;
+}
 
+#title {
+  font-size: 2.5em;
+  color: red;
 }
 
 #sidenav {
       position: absolute;
-      top: 0;
       background: blue;
       width: 100%;
       height: 100%;
@@ -24,12 +27,13 @@ li {
     }
 
     .hide {
-      transition: .75s;
-      top:%;
+      transition: 1s;
+      left: -100%;
     }
 
     .show {
-      transition: .25s;
+      transition: 1s;
       left: 0;
     }
 }
+
