@@ -4,8 +4,7 @@
   text-decoration: none;
   font-family: 'Gotham', sans-serif;
   font-size: 1.1em;
-  color: white;
-  background-color: blue;
+  color: black;
   /*margin-top: 0;*/
   /*padding: 0;*/
 }
@@ -18,18 +17,19 @@ li {
 #sidenav {
       position: absolute;
       top: 0;
-      background: #fff;
+      background: blue;
       width: 100%;
       height: 100%;
+      font-color: white;
     }
 
     .hide {
       transition: .75s;
-      left: -100%;
+      top:%;
     }
 
     .show {
-      transition: 1s;
+      transition: .25s;
       left: 0;
     }
 }
